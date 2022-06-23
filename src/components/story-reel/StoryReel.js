@@ -19,6 +19,16 @@ const StoryReel = () => {
         profileSrc=""
         title=""
     />
+        <Story 
+        image=""
+        profileSrc=""
+        title=""
+    />
+        <Story 
+        image=""
+        profileSrc=""
+        title=""
+    />
   </div>
 
 }

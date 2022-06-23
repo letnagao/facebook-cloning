@@ -11,7 +11,7 @@ import ExpandMoreOutlined from "@material-ui/icons/ExpandMoreOutlined";
 function Sidebar () {
   return (
     <div className="sidebar">
-        <SidebarRow src="" title="Developer" />
+        <SidebarRow src="" title="Leticia Lumi" />
         <SidebarRow 
             Icon={LocalHospitalIcon}
             title="COVID-19 Information Center" 
