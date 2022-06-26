@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sidebar.css';
+import Avatar from '@mui/material/Avatar';
 import SidebarRow from './SidebarRow';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import EmojiFlagsIcon from '@material-ui/icons/EmojiFlags';
@@ -11,6 +12,7 @@ import ExpandMoreOutlined from "@material-ui/icons/ExpandMoreOutlined";
 function Sidebar () {
   return (
     <div className="sidebar">
+        <Avatar />
         <SidebarRow src="" title="Leticia Lumi" />
         <SidebarRow 
             Icon={LocalHospitalIcon}
